@@ -1,0 +1,90 @@
+.cards {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    padding: 40px;
+    width: 50%;
+}
+
+.box {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.outer {
+    background-color: #f3f3fc;
+}
+
+.title {
+    border-bottom: #f3f3fc;
+}
+
+.upload {
+    height: 150px;
+    background-color: #fbfcff;
+    border-radius: 3px;
+    border-style: dashed;
+}
+
+.icon {
+    color: gray;
+}
+.upload input {
+    opacity: 0;
+    position: absolute;
+    top: 206px;
+    left: 400px;
+    width: 43vw;
+    height: 150px;
+    cursor: pointer;
+    border: 1px black solid;
+}
+
+@media (min-width: 1111px) and (max-width: 1300px) {
+    .upload input {
+        left: 230px;
+        width: 830px;
+    }
+    .cards {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1023px) and (max-width: 1110px) {
+    .upload input {
+        left: 230px;
+        width: 700px;
+    }
+    .cards {
+        width: 70%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .upload input {
+        left: 200px;
+        width: 61.5vw;
+    }
+    .cards {
+        width: 70%;
+    }
+}
+
+@media (min-width:425px) and (max-width: 768px) {
+    .upload input {
+        left: 120px;
+        width: 69vw;
+    }
+    .cards {
+        width: 80%;
+    }
+}
+
+@media (max-width: 425px) {
+    .upload input {
+        left: 80px;
+        width: 60vw;
+    }
+    .cards {
+        width: 80%;
+    }
+}
